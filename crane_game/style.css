@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.cardinal-arrow-pad {
+    border: 2px pink solid;
+    width: 20vw;
+    /* background: grey; */
+    position: absolute;
+    bottom: 0%;
+    left: 600px;
+    
+}
+
+.up {
+    border: 1px green solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.left-right {
+    border: 1px yellow solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.down {
+    border: 1px red solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.left {
+    border: 1px blue solid;
+}
+
+#button-up {
+    /* background-color: greenyellow; */
+
+}
